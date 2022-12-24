@@ -11,4 +11,4 @@
 
 Please leave the permissions as they are, because PolliTicket only requests the permissions that are needed.
 
-![](/images/permissions.png "Permissions")
+![](https://xilight.github.io/PolliTicket-Documentation/images/permissions.png "Permissions")

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77e3552d-9e17-4ae4-b888-a5e780701979" name="Changes" comment="Added - Readme">
-      <change afterPath="$PROJECT_DIR$/docs/getting-started/invite.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/getting-started/setup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/images/permissions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/permissions/bot-permissions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/permissions/dashboard-permissions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/transcripts/basics.md" afterDir="false" />
+    <list default="true" id="77e3552d-9e17-4ae4-b888-a5e780701979" name="Changes" comment="Added - Alot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/invite.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/getting-started/invite.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/search/search_index.json" afterDir="false" />
@@ -87,7 +81,7 @@
       <updated>1671817832996</updated>
       <workItem from="1671817834565" duration="729000" />
       <workItem from="1671818584813" duration="5576000" />
-      <workItem from="1671869095970" duration="1315000" />
+      <workItem from="1671869095970" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1671818839677</created>
@@ -110,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671869338269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added - Alot">
+      <created>1671870446944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671870446944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +136,7 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Added docs" />
     <MESSAGE value="Added - Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added - Readme" />
+    <MESSAGE value="Added - Alot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added - Alot" />
   </component>
 </project>
