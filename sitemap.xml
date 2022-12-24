@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://polliticket.eu/</loc>
-         <lastmod>2022-12-23</lastmod>
+         <lastmod>2022-12-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://polliticket.eu/general/</loc>
-         <lastmod>2022-12-23</lastmod>
+         <loc>https://polliticket.eu/getting-started/invite/</loc>
+         <lastmod>2022-12-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://polliticket.eu/general/setup/</loc>
-         <lastmod>2022-12-23</lastmod>
+         <loc>https://polliticket.eu/getting-started/setup/</loc>
+         <lastmod>2022-12-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://polliticket.eu/permissions/bot-permissions/</loc>
+         <lastmod>2022-12-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://polliticket.eu/permissions/dashboard-permissions/</loc>
+         <lastmod>2022-12-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://polliticket.eu/transcripts/basics/</loc>
+         <lastmod>2022-12-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
