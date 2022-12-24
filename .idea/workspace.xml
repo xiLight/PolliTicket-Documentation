@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77e3552d-9e17-4ae4-b888-a5e780701979" name="Changes" comment="Added gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="77e3552d-9e17-4ae4-b888-a5e780701979" name="Changes" comment="Added - Readme">
+      <change afterPath="$PROJECT_DIR$/docs/getting-started/invite.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/getting-started/setup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/permissions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/permissions/bot-permissions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/permissions/dashboard-permissions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/transcripts/basics.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/search/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/transcripts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,7 +50,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OLD-Entwicklung\Docs\PolliTicket-Docs\docs\transcripts" />
+      <recent name="D:\OLD-Entwicklung\Docs\PolliTicket-Docs\docs\permissions" />
+      <recent name="D:\OLD-Entwicklung\Docs\PolliTicket-Docs\docs\getting-started" />
+      <recent name="D:\OLD-Entwicklung\Docs\PolliTicket-Docs\docs\general" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PolliTicket-Docs/site/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -53,6 +71,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671817832996</updated>
       <workItem from="1671817834565" duration="729000" />
-      <workItem from="1671818584813" duration="1912000" />
+      <workItem from="1671818584813" duration="5576000" />
+      <workItem from="1671869095970" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore">
       <created>1671818839677</created>
@@ -72,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671818839677</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added docs">
+      <created>1671820529063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671820529063</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added - Readme">
+      <created>1671869338269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671869338269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,12 +126,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
+    <MESSAGE value="Added docs" />
+    <MESSAGE value="Added - Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added - Readme" />
   </component>
 </project>
