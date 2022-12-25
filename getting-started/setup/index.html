@@ -678,22 +678,25 @@ For the webpanel it is necessary to be on our Discord.</p>
 We explain all the arguments here so that you can get through all the steps.</p>
 <h3 id="steps-before-setup">Steps before Setup</h3>
 <p>In order to be able to make the setup, you need a few small things in advance:</p>
-<p>!!! note</p>
-<pre><code>If there is already a role for the team to see and edit tickets, then you can jump to the second point.
-</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If there is already a role for the team to see and edit tickets, then you can jump to the second point.</p>
+</div>
 <ul>
 <li>Create <strong>1</strong> or <strong>2</strong> new roles (Ping and Team role) for your team.<br>
   You can also create only 1 role, for example <code>team</code>, which you can use to ping and edit tickets. It is important that <strong>at least one role</strong> is available.</li>
 </ul>
-<p>!!! note</p>
-<pre><code>If a TextChannel already exists where tickets can be created, you can also use this TextChannel in the setup, simply select your TextChannel in the setup under `Create-Channel`.
-</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If a TextChannel already exists where tickets can be created, you can also use this TextChannel in the setup, simply select your TextChannel in the setup under <code>Create-Channel</code>.</p>
+</div>
 <ul>
 <li>Create a TextChannel, where the TicketCreator ( Embed ) will land after the setup, new tickets can be created in this TextChannel by clicking on the button.</li>
 </ul>
-<p>!!! note</p>
-<pre><code>If there is already a TextChannel where you store logs, you can select this TextChannel in the setup under `Log-Channel`.
-</code></pre>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If there is already a TextChannel where you store logs, you can select this TextChannel in the setup under <code>Log-Channel</code>.</p>
+</div>
 <ul>
 <li>Create a TextChannel where Bot can post the transcript logs after closing tickets. Please make sure that the bot can write/read there and post embeds.</li>
 <li>If you already have a category where tickets end up, you can copy the category name and paste it into the setup under <code>Tickets-spacer-name</code>. <br>If this category does not exist, a new category with this name will be created.</li>
@@ -704,7 +707,9 @@ We explain all the arguments here so that you can get through all the steps.</p>
 <p>Here you have to enter a timezone so that the bot knows how to handle your time.
 Because there are many timezones, I have listed the most common timezones.</p>
 <p><code>Most common timezones:</code> UTC, Europe/Berlin</p>
-<p>??? note "Timezone list"</p>
+<details class="note">
+<summary>Timezone list</summary>
+</details>
 <p>ACT
 AET
 AGT
