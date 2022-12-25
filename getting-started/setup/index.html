@@ -686,19 +686,21 @@ For the webpanel it is necessary to be on our Discord.</p>
 <p><strong>Required</strong>
 - <code>setup-name</code>
 - <code>language</code></p>
-<p><strong>Defaults</strong>
-- <code>timezone</code> UTC
-- <code>use-transcripts</code> false ( Offline Archive )
-- <code>log-channel</code> 📛・transcripts-log ( Automatically created )
-- <code>tickets-spacer-name</code> 🎫| <strong>setup-name</strong> Tickets |🎫 ( Automatically created )
-- <code>create-channel</code> 🎫・general-ticket ( Automatically created )
-- <code>team-role</code> <strong>setup-name</strong> team ( Automatically created )
-- <code>ping-role</code> is team-role
-- <code>max-tickets-per-user</code> 1
-- <code>response-within-label</code> 24 hours
-- <code>auto-close-time</code> 3d
-- <code>custom-text</code> EditMe in our panel
-- <code>embed-image-url</code> null</p>
+<p><strong>Defaults</strong></p>
+<ul>
+<li><code>timezone</code> UTC</li>
+<li><code>use-transcripts</code> false ( Offline Archive )</li>
+<li><code>log-channel</code> 📛・transcripts-log ( Automatically created )</li>
+<li><code>tickets-spacer-name</code> 🎫| <strong>setup-name</strong> Tickets |🎫 ( Automatically created )</li>
+<li><code>create-channel</code> 🎫・general-ticket ( Automatically created )</li>
+<li><code>team-role</code> <strong>setup-name</strong> team ( Automatically created )</li>
+<li><code>ping-role</code> is team-role</li>
+<li><code>max-tickets-per-user</code> 1</li>
+<li><code>response-within-label</code> 24 hours</li>
+<li><code>auto-close-time</code> 3d</li>
+<li><code>custom-text</code> EditMe in our panel</li>
+<li><code>embed-image-url</code> null</li>
+</ul>
 <h2 id="normal-setup">Normal setup</h2>
 <p><strong>Command:</strong> /Setup<br>
 <strong>Permission:</strong> ADMINISTRATOR</p>
@@ -730,21 +732,15 @@ We explain all the arguments here so that you can get through all the steps.</p>
 <li>If you already have a category where tickets end up, you can copy the category name and paste it into the setup under <code>Tickets-spacer-name</code>. <br>If this category does not exist, a new category with this name will be created.</li>
 </ul>
 <h3 id="checklist">Checklist</h3>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Important, to use the bot.</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Not mandatory.</p>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Checked whether the bot has all the permissions required to</p>
-<ol>
-<li>Create channels, categories and roles.</li>
-<li>Must be able to send embeds/messages in the log, ticket and creator channel.</li>
-</ol>
-</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Read through all steps <a href="#">before setup</a></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Joined our <a href="https://discord.polliticket.eu">Discord</a> to use our panel.</li>
-</ul>
+<p><strong>Agenda</strong>
+- [x] Important, to use the bot.
+- [ ] Not mandatory.
+<br>
+- [x] Checked whether the bot has all the permissions required to
+    1. Create channels, categories and roles.
+    2. Must be able to send embeds/messages in the log, ticket and creator channel.
+- [x] Read through all steps <a href="#">before setup</a>
+- [ ] Joined our <a href="https://discord.polliticket.eu">Discord</a> to use our panel.</p>
 <h3 id="setup-name">Setup-Name</h3>
 <p>Here you have to think of a name for your setup, this name is in the panel under settings after the setup and is used in the quicksetup to create the roles and categories.</p>
 <h3 id="timezone">Timezone</h3>
