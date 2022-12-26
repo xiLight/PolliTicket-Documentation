@@ -19,6 +19,7 @@
 * `/QuickSetup` - Quickly create a new setup.
 * `/Feedback` - Send us some feedback.
 * `/Close` - Close a ticket.
+* `/Check-channel-permissions` - Checks the permissions in a TextChannel.
 
 ### User
 * `/Help` - Get a link to our docs.
